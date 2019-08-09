@@ -2,7 +2,7 @@
 int main(){
   int x,p;
   float next_amt,amount_ness;
-  cin<<x<<p;
+  cin>>x>>p;
   next_amt=x;
   amount_ness=0;
   while(next_amt>1){
