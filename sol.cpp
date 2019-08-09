@@ -5,7 +5,7 @@ int main(){
   cin<<x<<p;
   next_amt=x;
   amount_ness=0;
-  while(nrxt_amt>1){
+  while(next_amt>1){
     amount_ness+=next_amt;
     next_amt=x-(p*x)/100;
     }
